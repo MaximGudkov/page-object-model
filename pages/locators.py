@@ -11,6 +11,8 @@ class LoginPageLocators:
 class ProductPageLocators:
     ADD_INTO_BASKET_BUTTON = (By.CLASS_NAME, "btn-add-to-basket")
 
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, "#messages .alert-success:first-child")
+
     ADDED_IN_BASKET_MESSAGE = (By.CLASS_NAME, "alertinner")
     PRODUCT_NAME_IN_MESSAGE = (By.CSS_SELECTOR, ".alert-success strong")
     PRODUCT_NAME = (By.CSS_SELECTOR, ".product_main h1")
