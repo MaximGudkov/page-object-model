@@ -10,4 +10,4 @@ class BasketPage(BasePage):
     def should_be_message_about_empty_basket(self):
         assert "Your basket is empty." in self.get_element_text(*BasketPageLocators.EMPTY_BASKET_MESSAGE), \
             "There is no message or it is incorrect"
-        # Проверка только на английский язык пройдёт, если понадобится потом и другие языки добавлю
+        # Проверка только на английский язык пройдёт, но можно и на другие потом проверить
