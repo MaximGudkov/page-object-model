@@ -1,4 +1,4 @@
-<h1 align="center">This is my project about testing with Python, Pytest and Selenium using Page Object Model</h1>
+<h1 align="center">Project about testing with Python, Pytest and Selenium using Page Object Model</h1>
 <p>You can clone this repository and run any test from <strong>test_main_page.py</strong> or <strong>test_product_page.py</strong> it will be interesting</p>
 <h2>How to run it:</h2>
 <h4>2 parametrs:</h4>
